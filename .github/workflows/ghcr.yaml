@@ -11,5 +11,5 @@ jobs:
       - name: Build and push image
         run: |
           docker login --username ndrewGele --password ${{ secrets.GH_PAT }} ghcr.io
-          docker build . --tag ghcr.io/ndrewGele/ohlc-fetcher:latest
-          docker push ghcr.io/ndrewGele/ohlc-fetcher:latest
+          docker build . --tag ghcr.io/ndrewgele/ohlc-fetcher:latest
+          docker push ghcr.io/ndrewgele/ohlc-fetcher:latest
